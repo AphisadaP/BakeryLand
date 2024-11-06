@@ -1,0 +1,65 @@
+[
+    {
+        "ItemID": 1,
+        "ItemName": "Hot Latte",
+        "Price": 30.0,
+        "TotalQuantityOrdered": 5,
+        "ItemIMG": "./images/LatteHot2.jpg"
+    },
+    {
+        "ItemID": 2,
+        "ItemName": "Chocolate Cake",
+        "Price": 50.0,
+        "TotalQuantityOrdered": 3,
+        "ItemIMG": "./images/ChocoCake.jpg"
+    },
+    {
+        "ItemID": 3,
+        "ItemName": "Egg Sandwich",
+        "Price": 30.0,
+        "TotalQuantityOrdered": 3,
+        "ItemIMG": "./images/japanese-egg-salad-sandwich-2a.jpg"
+    },
+    {
+        "ItemID": 4,
+        "ItemName": "Hot Cocoa",
+        "Price": 40.0,
+        "TotalQuantityOrdered": 5,
+        "ItemIMG": "./images/IMG_1012.jpeg"
+    },
+    {
+        "ItemID": 5,
+        "ItemName": "./images/Hot Matcha Latte",
+        "Price": 40.0,
+        "TotalQuantityOrdered": 1,
+        "ItemIMG": "IMG_1013.jpeg"
+    },
+    {
+        "ItemID": 6,
+        "ItemName": "Croissants",
+        "Price": 60.0,
+        "TotalQuantityOrdered": 2,
+        "ItemIMG": "./images/IMG_1014.jpeg"
+    },
+    {
+        "ItemID": 7,
+        "ItemName": "Baguette",
+        "Price": 60.0,
+        "TotalQuantityOrdered": 1,
+        "ItemIMG": "./images/IMG_1015.jpeg"
+    },
+    {
+        "ItemID": 8,
+        "ItemName": "Black Forest Cake",
+        "Price": 65.0,
+        "TotalQuantityOrdered": 4,
+        "ItemIMG": "./images/Black-Forest-Cake-12.jpg"
+    },
+    {
+        "ItemID": 9,
+        "ItemName": "Sourdough Bread",
+        "Price": 150.0,
+        "TotalQuantityOrdered": 4,
+        "ItemIMG": "./images/f0c2b3a9a9efe032ea5271f34ae357e9.jpg"
+    }
+]

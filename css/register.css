@@ -1,0 +1,175 @@
+﻿* {
+  font-family: "Radley", serif;
+}
+
+html {
+  overflow-y: auto;
+  background: #f4f1e8;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  color: #9b4819;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 1em;
+  color: #9b4819;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+form {
+  background-color: #fff;
+  width: 70%;
+  border: solid 3px #ccc5b0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  margin: auto;
+  font-size: 20px;
+  color: #9b4819;
+}
+
+.register {
+  padding: 20px;
+}
+
+
+input {
+  border: solid 1px #9b4819;
+  font-size: 20px;
+  padding: 0 5px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.register-input {
+  width: 100%;
+  margin-top: 5px;
+  height: 35px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+}
+
+.register .register-detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.register-detail .register-box {
+  width: calc(100%/2 - 25px);
+}
+
+.register-box title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.register-text {
+  width: 100%;
+  padding: 4px;
+  border-radius: 5px;
+  border: solid 1px #9b4819;
+  outline: none;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+button {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #9b4819;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:hover {
+  background-color: #d79c79;
+  color: #9b4819;
+}
+
+/* MOBILE DEVICE SPECIFIC */
+@media only screen and (max-width: 625px) {
+  .register {
+    padding: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 20px 20px 20px 0px;
+    margin: auto;
+    font-size: 14px;
+  }
+
+  input,
+  button {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  input {
+    border: solid 1px #9b4819;
+    font-size: 18px;
+    padding: 8px;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+  }
+
+  .register .register-detail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+  }
+
+  .register-detail .register-box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .register-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+
+}
